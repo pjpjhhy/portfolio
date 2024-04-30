@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animation-element {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+  }
+  
+  .name-job {
+    animation: slideInAndOut 2.5s infinite;
+  }
+  
+  @keyframes slideInAndOut {
+    0% {
+      opacity: 0;
+      transform: translateX(-10%);
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(40%);
+    }
+  }
+  
+  .name-job div {
+    opacity: 0;
+  }
+  
+  .name-job div.active {
+    opacity: 1;
+  }
+
+  /* 추가된 CSS */
+.hover-container {
+    position: relative;
+  }
+  
+ /* 호버시에 나타날 주황색 사각형을 나타내는 클래스 */
+/* 주황색 사각형 스타일 */
+.orange-square {
+    position: absolute;
+    width: 0;
+    height: 70px;
+    background-color: #4ADE80;
+    top: 50%;
+    left: 0; /* 초기에는 왼쪽 끝에 위치하도록 설정 */
+    transform: translateY(-50%);
+    opacity: 1; /* 초기에는 보임 */
+    transition: left 0.3s ease, width 0.3s ease; /* 위치와 너비 변화에 대한 부드러운 효과 설정 */
+  }
+  
+  /* 호버시에 위치와 너비가 변화하도록 설정 */
+  .hover-container:hover .orange-square {
+    left: -180px; /* 왼쪽으로 이동하여 나타나도록 설정 */
+    width: 200px; /* 너비가 커지면서 나타나도록 설정 */
+  }
+  
+  /* skills 항목 */
+  .green-border {
+    position: relative;
+    width: 330px;
+    height: 330px;
+    background-color: black;
+    border: 5px solid transparent;
+    transition: border-color 0.5s ease; /* 테두리 색상 변화에 대한 부드러운 효과 설정 */
+  }
+  
+  .green-border:hover {
+    border-top-color: #4ADE80;
+  }
+  
+  .green-border::before {
+    content: '';
+    position: absolute;
+    top: -5px; /* 시작 위치 설정 */
+    left: -5px; /* 시작 위치 설정 */
+    width: 0;
+    height: 0;
+    border: 5px solid #4ADE80; /* 테두리 색상 설정 */
+    transition: width 0.5s ease, height 0.5s ease; /* 테두리 너비와 높이 변화에 대한 부드러운 효과 설정 */
+  }
+  
+  .green-border:hover::before {
+    width: calc(100% + 10px); /* 테두리 너비가 전체적으로 채워지도록 설정 */
+    height: calc(100% + 10px); /* 테두리 높이가 전체적으로 채워지도록 설정 */
+    border-top-color: transparent;
+    border-right-color: #4ADE80; /* 시계 방향으로 테두리 색상 설정 */
+  }
+  
+  /* project 항목 */
+
+  
