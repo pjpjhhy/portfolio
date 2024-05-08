@@ -23,7 +23,7 @@ export default function Main() {
   }, []);
 
   return (
-    <div className='w-full flex justify-center bg-gray-900'>
+    <div className='w-full flex justify-center bg-gray-950'>
       <div className='w-full h-screen md:max-w-[85%] flex gap-x-10'>
         <div className='w-full flex flex-col md:flex-row gap-y-10'>
           {/* my img */}

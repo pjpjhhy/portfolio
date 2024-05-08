@@ -10,7 +10,7 @@ export default function Category() {
     <div className='w-full flex justify-center'>
       <div className='w-full flex flex-col items-center justify-center gap-y-10 pr-5'>
         {/* home */}
-        <Link to="/"><div className='w-20 h-20 flex items-center justify-center rounded-full  bg-black relative hover-container'>
+        <Link to="/"><div className='w-20 h-20 flex items-center justify-center rounded-full  bg-black relative hover-container border-[2px] border-green-400'>
           {/* 호버시에 나타날 검정색 원 */}
           <div
           style={{clipPath: 'polygon(100% 0%, 95% 50%, 100% 100%, 7% 100%, 0% 50%, 7% 0)'}}
@@ -18,7 +18,7 @@ export default function Category() {
           <p className='text-white font-bold hover:text-[#4ADE80]'>HOME</p>
         </div></Link>
         {/* skills */}
-        <Link to="/skills"><div className='w-20 h-20 flex items-center justify-center rounded-full bg-black relative hover-container'>
+        <Link to="/skills"><div className='w-20 h-20 flex items-center justify-center rounded-full bg-black relative hover-container border-[2px] border-green-400'>
           {/* 호버시에 나타날 검정색 원 */}
           <div
           style={{clipPath: 'polygon(100% 0%, 95% 50%, 100% 100%, 7% 100%, 0% 50%, 7% 0)'}}
@@ -26,7 +26,7 @@ export default function Category() {
           <p className='text-white font-bold hover:text-[#4ADE80]'>SKILL</p>
         </div></Link>
         {/* project */}
-        <Link to= "/project"><div className='w-20 h-20 flex items-center justify-center rounded-full bg-black relative hover-container'>
+        <Link to= "/project"><div className='w-20 h-20 flex items-center justify-center rounded-full bg-black relative hover-container border-[2px] border-green-400'>
           {/* 호버시에 나타날 검정색 원 */}
           <div
           style={{clipPath: 'polygon(100% 0%, 95% 50%, 100% 100%, 7% 100%, 0% 50%, 7% 0)'}}
@@ -34,7 +34,7 @@ export default function Category() {
           <p className='text-white font-bold hover:text-[#4ADE80]'>PROJECT</p>
         </div></Link>
         {/* github */}
-        <div className='w-20 h-20 flex items-center justify-center rounded-full bg-black relative hover-container'>
+        <div className='w-20 h-20 flex items-center justify-center rounded-full bg-black relative hover-container border-[2px] border-green-400'>
           {/* 호버시에 나타날 검정색 원 */}
           <div
           style={{clipPath: 'polygon(100% 0%, 95% 50%, 100% 100%, 7% 100%, 0% 50%, 7% 0)'}}

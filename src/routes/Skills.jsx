@@ -8,10 +8,10 @@ import { SiTailwindcss } from "react-icons/si";
 
 export default function Skills() {
   return (
-    <div className='w-full flex flex-col justify-center bg-gray-800'>
+    <div className='w-full flex flex-col justify-center bg-gray-950'>
         <div className='w-full pt-12 flex justify-center text-white font-black text-[50px]'>
             <div className='text-[87px] absolute text-green-400 z-20'>skills</div>
-            <div className='text-[80px] text-white opacity-50'>skills</div>
+            <div className='text-[80px] text-white opacity-10'>skills</div>
         </div>
       <div className='w-full h-fit py-14 flex justify-center'>
         <div className='w-full max-w-[90%] flex justify-center items-center h-full'>

@@ -3,10 +3,10 @@ import Category from '../components/Category'
 
 export default function Project() {
   return (
-   <div className='w-full h-full flex flex-col justify-center bg-gray-800'>
+   <div className='w-full h-full flex flex-col justify-center bg-gray-950'>
       <div className='w-full pt-12 flex justify-center text-white font-black text-[50px]'>
             <div className='text-[86px] absolute text-green-400 z-20'>project</div>
-            <div className='text-[80px] text-white opacity-50'>project</div>
+            <div className='text-[80px] text-white opacity-10'>project</div>
         </div>
         <div className='w-full h-fit py-14 flex justify-center'>
         <div className='w-full max-w-[90%] flex justify-center items-center h-full'>
@@ -19,8 +19,8 @@ export default function Project() {
                     </div>
                     <div className='flex gap-x-1'><p className='text-[#4ADE80] font-black'>-</p><p>원하는 UI를 실용적이고, 익숙하게 만들어 낼 수 있습니다.</p></div>
                     <div className='flex flex-col gap-y-1'>
-                        <div className='font-bold text-[16px]'>Tech stack</div>
-                        <div className='flex gap-x-2 text-[13px]'>
+                        <div className=' flex font-bold text-[16px]'><p className='text-[#4ADE80] font-black'>-</p>Tech stack</div>
+                        <div className='flex gap-x-2 text-[13px] ml-2'>
                             <div className=' border border-[#4ADE80] p-[2px] rounded-lg'>HTML5</div>
                             <div className=' border border-[#4ADE80] p-[2px] rounded-lg'>CSS3</div>
                             <div className=' border border-[#4ADE80] p-[2px] rounded-lg'>JavaScript</div>
@@ -34,8 +34,8 @@ export default function Project() {
                     <div className='w-full h-[150px] bg-green-100'>a</div>
                     <div className='flex gap-x-1'><p className='text-[#4ADE80] font-black'>-</p><p>원하는 UI를 실용적이고, 익숙하게 만들어 낼 수 있습니다.</p></div>
                     <div className='flex flex-col gap-y-1'>
-                        <div className='font-bold text-[16px]'>Tech stack</div>
-                        <div className='flex gap-x-2 text-[13px]'>
+                        <div className=' flex font-bold text-[16px]'><p className='text-[#4ADE80] font-black'>-</p>Tech stack</div>
+                        <div className='flex gap-x-2 text-[13px] ml-2'>
                             <div className=' border border-[#4ADE80] p-[2px] rounded-lg'>HTML5</div>
                             <div className=' border border-[#4ADE80] p-[2px] rounded-lg'>CSS3</div>
                             <div className=' border border-[#4ADE80] p-[2px] rounded-lg'>JavaScript</div>
@@ -49,8 +49,8 @@ export default function Project() {
                     <div className='w-full h-[150px] bg-green-100'></div>
                     <div className='flex gap-x-1'><p className='text-[#4ADE80] font-black'>-</p><p>원하는 UI를 실용적이고, 익숙하게 만들어 낼 수 있습니다.</p></div>
                     <div className='flex flex-col gap-y-1'>
-                        <div className='font-bold text-[16px]'>Tech stack</div>
-                        <div className='flex gap-x-2 text-[13px]'>
+                    <div className=' flex font-bold text-[16px]'><p className='text-[#4ADE80] font-black'>-</p>Tech stack</div>
+                        <div className='flex gap-x-2 text-[13px] ml-2'>
                             <div className=' border border-[#4ADE80] p-[2px] rounded-lg'>HTML5</div>
                             <div className=' border border-[#4ADE80] p-[2px] rounded-lg'>CSS3</div>
                             <div className=' border border-[#4ADE80] p-[2px] rounded-lg'>JavaScript</div>
@@ -64,8 +64,8 @@ export default function Project() {
                     <div className='w-full h-[150px] bg-green-100'>a</div>
                     <div className='flex gap-x-1'><p className='text-[#4ADE80] font-black'>-</p><p>원하는 UI를 실용적이고, 익숙하게 만들어 낼 수 있습니다.</p></div>
                     <div className='flex flex-col gap-y-1'>
-                        <div className='font-bold text-[16px]'>Tech stack</div>
-                        <div className='flex gap-x-2 text-[13px]'>
+                    <div className=' flex font-bold text-[16px]'><p className='text-[#4ADE80] font-black'>-</p>Tech stack</div>
+                        <div className='flex gap-x-2 text-[13px] ml-2'>
                             <div className=' border border-[#4ADE80] p-[2px] rounded-lg'>HTML5</div>
                             <div className=' border border-[#4ADE80] p-[2px] rounded-lg'>CSS3</div>
                             <div className=' border border-[#4ADE80] p-[2px] rounded-lg'>JavaScript</div>
@@ -79,8 +79,8 @@ export default function Project() {
                     <div className='w-full h-[150px] bg-green-100'>a</div>
                     <div className='flex gap-x-1'><p className='text-[#4ADE80] font-black'>-</p><p>원하는 UI를 실용적이고, 익숙하게 만들어 낼 수 있습니다.</p></div>
                     <div className='flex flex-col gap-y-1'>
-                        <div className='font-bold text-[16px]'>Tech stack</div>
-                        <div className='flex gap-x-2 text-[13px]'>
+                        <div className=' flex font-bold text-[16px]'><p className='text-[#4ADE80] font-black'>-</p>Tech stack</div>
+                        <div className='flex gap-x-2 text-[13px] ml-2'>
                             <div className=' border border-[#4ADE80] p-[2px] rounded-lg'>HTML5</div>
                             <div className=' border border-[#4ADE80] p-[2px] rounded-lg'>CSS3</div>
                             <div className=' border border-[#4ADE80] p-[2px] rounded-lg'>JavaScript</div>
